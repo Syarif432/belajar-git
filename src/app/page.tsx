@@ -1,6 +1,12 @@
+import Banner from "@/components/landing/banner";
+import Rent from "@/components/landing/rent";
 import Image from "next/image";
-import Hero from "../../public/assets/Hero.png";
 
 export default function Home() {
-  return <div>page</div>;
+  return (
+    <div>
+      <Banner />
+      <Rent />
+    </div>
+  );
 }
